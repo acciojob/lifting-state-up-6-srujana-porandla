@@ -1,1 +1,19 @@
 
+/* src/styles/App.css */
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }  
