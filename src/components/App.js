@@ -20,7 +20,7 @@ const App = () => {
   };
 
   return (
-    <div class="App">
+    <div className="App">
           <h1>Parent Component</h1>
            <h3>Child Component</h3>
            <TodoList todos={todos} handleComplete={handleComplete} />
