@@ -1,19 +1,18 @@
 
 /* src/styles/App.css */
-ul {
+.App {
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  h1 {
+    text-align: center;
+
+  }
+  
+  ul {
     list-style-type: none;
     padding: 0;
   }
   
-  li {
-        
-    align-items: center;
-  }
-  
-  
-  
-  button {
-    margin-left: auto;
-    cursor: pointer;
-  }
   
