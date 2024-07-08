@@ -9,9 +9,11 @@
     text-align: center;
 
   }
-  li.completed {
-    background-color: #f0f0f0; /* Lighter background for completed todos */
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5; /* Example: Reducing opacity for completed items */
   }
+  
   
   ul {
     list-style-type: none;
